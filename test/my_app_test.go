@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"testing"
 
-	"github.com/gophteam/jenkins_demo/common"
+	"github.com/gophteam/goph_jenkins_demo/common"
 )
 
 // TestSnakeToCaseTD !
