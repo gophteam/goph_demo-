@@ -7,7 +7,8 @@ pipeline {
 
     // set jenkins environment
     environment {
-        GOPATH = "${JENKINS_HOME}/jobs/${JOB_NAME}/builds/${BUILD_ID}"
+        GOPATH = "${JENKINS_HOME}/workspace/${JOB_NAME}"
+        // GOPATH = "${JENKINS_HOME}/jobs/${JOB_NAME}/builds/${BUILD_ID}"
         // GOBIN = "${GOPATH}/bin"
         CGO_ENABLED = 0
         GO1136MODULE = "off"
